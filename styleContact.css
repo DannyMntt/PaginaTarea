@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu+Mono&display=swap');
+
+* {
+    font-family: Montserrat;
+}
+
+nav {
+    list-style: none;
+    padding: 0;
+    background: #092320;
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav li a{
+    text-decoration: none;
+    color: rgb(48, 196, 216);
+    padding: 10px;
+    display: block;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+}
+
+nav li a:hover {
+    background: rgb(80, 62, 29);
+}
